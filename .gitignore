@@ -9,3 +9,7 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+# other files
+About FoxChat.md
+FoxChat more details.md
+app.log
