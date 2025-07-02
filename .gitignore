@@ -6,7 +6,7 @@ __pycache__/
 # Environment and config
 .env
 .venv/
-.gitignore
+sessions/
 # System files
 .DS_Store
 Thumbs.db
