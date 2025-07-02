@@ -41,7 +41,7 @@ python -m FoxChat
 
 ## 📜 License
 
-This project is currently unpublished under any license. Add a license file if you want to share it publicly.
+This project is currently under MIT license.
 
 ---
 *Built with ❤️ in Bangladesh*
