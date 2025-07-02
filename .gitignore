@@ -2,10 +2,10 @@
 # Python cache and compiled files
 __pycache__/
 *.pyc
-
+.idea
 # Environment and config
 .env
-
+.venv/
 # System files
 .DS_Store
 Thumbs.db
@@ -13,3 +13,5 @@ Thumbs.db
 About FoxChat.md
 FoxChat more details.md
 app.log
+project directory structure.txt
+what is under development.txt
