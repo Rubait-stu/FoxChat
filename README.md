@@ -1,0 +1,47 @@
+
+# 🦊 FoxChat
+
+FoxChat is a powerful, customizable AI-based chat application built with Python and PyQt6. It supports multiple chat modes, anonymous peer-to-peer communication, file uploads, and more — all in a clean, modern interface.
+
+## ✨ Features
+
+- 🔹 **AI Chat Interface** with API switching (OpenAI, Gemini, etc.)
+- 🔹 **Anonymous P2P Mode** for local or LAN-based chatting
+- 🔹 **File Uploads** and previews (images, PDFs)
+- 🔹 **Multiple Themes** and layout options
+- 🔹 **Markdown-rendered messages**
+- 🔹 **Custom API Builder** (under development)
+
+## 📂 Project Structure
+
+- `core/` – Core logic and shared utilities
+- `ui/` – PyQt UI components and views
+- `advanced/` – Advanced tools (API manager, session manager)
+- `themes/` – Theme data and UI skins
+- `assets/` – Static files (icons, images)
+- `__main__.py` – Launch script
+
+## 🚧 Features In Progress
+
+- Editable custom API profiles
+- Validation for API integrations
+- Improved theming system
+
+## 🛠 Installation
+
+```bash
+pip install -r requirements.txt
+python -m FoxChat
+```
+
+## 👥 Contributors
+
+- [@yourusername](https://github.com/yourusername) – Core Developer  
+- [@yourfriend](https://github.com/yourfriend) – Co-Developer
+
+## 📜 License
+
+This project is currently unpublished under any license. Add a license file if you want to share it publicly.
+
+---
+*Built with ❤️ in Bangladesh*

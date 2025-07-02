@@ -1,0 +1,219 @@
+/* Main Application Styling */
+QWidget {
+    background: #1a202c;
+    color: #e2e8f0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+/* TOP BAR */
+QWidget#TopBar {
+    background: #2d3748;
+    border-bottom: 1px solid #4a5568;
+    padding: 12px 24px;
+}
+
+QLabel#TitleLabel {
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* SIDEBAR */
+QWidget#Sidebar {
+    background: #2d3748;
+    border-right: 1px solid #4a5568;
+    color: #e2e8f0;
+    border: 2px solid #4a5568;
+    border-radius: 6px;
+}
+
+/* CHAT AREA */
+QWidget#ChatArea {
+    border: 2px solid #4a5568;
+    border-radius: 6px;
+}
+
+/* LIST ITEMS */
+QListWidget {
+    background: transparent;
+    border: none;
+    color: #e2e8f0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+QListWidget::item {
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin: 4px 0;
+    background: transparent;
+}
+
+QListWidget::item:selected {
+    background: #4a5568;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* BUTTONS */
+QPushButton {
+    background-color: #4a5568;
+    border: 1px solid #2d3748;
+    color: #e2e8f0;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 8px 16px;
+    min-height: 36px;
+}
+
+QPushButton#SendButton {
+    background-color: #4299e1; /* Slightly lighter blue for dark theme */
+    color: #ffffff;
+    border: none;
+    border-radius: 12px; /* Soft edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Stronger shadow for dark theme */
+}
+
+QPushButton#SendButton:hover {
+    background-color: #3182ce;
+}
+
+QPushButton#UploadButton {
+    background-color: #faf089; /* Brighter yellow for dark theme */
+    color: #1a202c; /* Very dark text for contrast */
+    border: none;
+    border-radius: 12px; /* Soft edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Stronger shadow for dark theme */
+}
+
+QPushButton#UploadButton:hover {
+    background-color: #f6e05e; /* Slightly darker yellow on hover */
+}
+
+QPushButton#NewChatButton {
+    background: #4a5568;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+QPushButton#NewChatButton:hover {
+    background: #2d3748;
+}
+
+/* ICON BUTTONS */
+QPushButton#IconButton {
+    background: transparent;
+    border: none;
+    color: #a0aec0;
+}
+
+QPushButton#IconButton:hover {
+    color: #e2e8f0;
+}
+
+/* INPUT FIELD */
+QTextEdit {
+    background: #2d3748;
+    border: 1px solid #4a5568;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #e2e8f0;
+    font-size: 14px;
+    selection-background-color: #4a5568;
+    selection-color: #ffffff;
+}
+
+QTextEdit:focus {
+    border: 1px solid #a0aec0;
+    box-shadow: 0 0 0 2px rgba(160, 174, 192, 0.2);
+}
+
+/* CHAT BUBBLES */
+QFrame#UserBubble {
+    background: #4c51bf; /* Solid indigo color for consistency with other themes */
+    color: #ffffff;
+    border-radius: 12px 12px 0 12px;
+    padding: 12px 16px;
+    max-width: 70%;
+    font-weight: 500;
+}
+
+QFrame#UserBubble QLabel {
+    background-color: transparent;
+    color: #ffffff;
+    selection-background-color: transparent;
+    selection-color: #ffffff;
+}
+
+QFrame#BotBubble {
+    background: #2d3748;
+    color: #e2e8f0;
+    border: 1px solid #4a5568;
+    border-radius: 12px 12px 12px 0;
+    padding: 12px 16px;
+    max-width: 70%;
+    font-weight: 400;
+}
+
+QFrame#BotBubble QLabel {
+    background-color: transparent;
+    color: #e2e8f0;
+    selection-background-color: transparent;
+    selection-color: #e2e8f0;
+}
+
+/* SCROLLBAR */
+QScrollBar:vertical {
+    background: #2d3748;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #4a5568;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #718096;
+}
+
+/* SEARCH BAR */
+QLineEdit {
+    background: #2d3748;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #e2e8f0;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #a0aec0;
+    box-shadow: 0 0 0 2px rgba(160, 174, 192, 0.2);
+}
+
+/* FILE PREVIEW */
+QFrame#FilePreviewFrame {
+    background: #2d3748;
+    border: 1px dashed #4a5568;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QWidget#FilePreviewWidget {
+    background: #2d3748;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-right: 6px;
+    color: #e2e8f0;
+}
