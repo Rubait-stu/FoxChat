@@ -5,7 +5,7 @@ FoxChat is a powerful, customizable AI-based chat application built with Python 
 
 ## ✨ Features
 
-- 🔹 **AI Chat Interface** with API switching (OpenAI, Gemini, etc.)
+- 🔹 **AI Chat Interface** with API switching (OpenAI, Gemini, OpenRouter (deepseek-r1) etc.)
 - 🔹 **Anonymous P2P Mode** for local or LAN-based chatting
 - 🔹 **File Uploads** and previews (images, PDFs)
 - 🔹 **Multiple Themes** and layout options
