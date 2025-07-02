@@ -36,8 +36,8 @@ python -m FoxChat
 
 ## 👥 Contributors
 
-- [@Rubait-stu](https://github.com/yourusername) – Core Developer  
-- [@mizan-2070](https://github.com/yourfriend) – Co-Developer
+- [@Rubait-stu](https://github.com/Rubait-stu) – Core Developer  
+- [@mizan-2070](https://github.com/mizan-2070) – Co-Developer
 
 ## 📜 License
 
