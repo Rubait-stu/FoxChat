@@ -36,12 +36,12 @@ python -m FoxChat
 
 ## 👥 Contributors
 
-- [@yourusername](https://github.com/yourusername) – Core Developer  
-- [@yourfriend](https://github.com/yourfriend) – Co-Developer
+- [@Rubait-stu](https://github.com/yourusername) – Core Developer  
+- [@mizan-2070](https://github.com/yourfriend) – Co-Developer
 
 ## 📜 License
 
-This project is currently unpublished under any license. Add a license file if you want to share it publicly.
+This project is currently under MIT license.
 
 ---
 *Built with ❤️ in Bangladesh*
